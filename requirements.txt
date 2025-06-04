@@ -4,4 +4,5 @@ beautifulsoup4==4.12.2
 pandas==2.1.4
 lxml==4.9.3
 duckduckgo-search==3.9.6
-plotly==5.17.0
+plotly==5.17.
+pillow>=10.0.0

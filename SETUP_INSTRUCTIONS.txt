@@ -1,0 +1,40 @@
+# SmartScrape Pro Enhanced - Setup Instructions
+
+## Prerequisites
+- Python 3.8 or higher
+- Internet connection
+- Command line/terminal access
+
+## Installation Steps
+
+### 1. Download/Clone the Project
+- Download all project files to a folder (e.g., "SmartScrape")
+- Ensure you have these files:
+  - app.py
+  - scraper.py
+  - requirements.txt
+  - SETUP_INSTRUCTIONS.txt
+
+### 2. Create Virtual Environment (Recommended)
+```bash
+# Navigate to project folder
+cd SmartScrape
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+streamlit run app.py
+
+
+file structure:
+SmartScrape/
+├── app.py                 # Main Streamlit application
+├── scraper.py            # Enhanced scraping engine
+├── requirements.txt      # Python dependencies
+└── SETUP_INSTRUCTIONS.txt # This file
