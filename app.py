@@ -1011,7 +1011,7 @@ elif st.session_state.current_page == 'analytics' and PLOTLY_AVAILABLE:
         st.plotly_chart(fig, use_container_width=True)
 
 # Footer
-st.markdown('<div class="footer">© 2024 SmartScrape Pro Ultimate - Global Product Search Engine<br>Enhanced with multiple search methods and improved reliability</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">© 2024 SmartScrape Pro Ultimate - Global Product Search Engine<br>Enhanced with multiple search methods and improved reliability<br>A project by Armaghan</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     pass
